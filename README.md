@@ -57,14 +57,86 @@ I've written some code in `change.js`, but it's incomplete. It's supposed to pri
 Prompt the user to enter an integer. Is it positive, negative, or zero?
 
 There are three possible outputs.
-* `Positive`.
-* `Negative`.
-* `Zero`.
+* `Positive.`
+* `Negative.`
+* `Zero.`
 
 Your code must work for all integers in the range [`Number.MIN_SAFE_INTEGER`, `Number.MAX_SAFE_INTEGER`]. These are constants built into the `Number` object. You'll have to do a little research to figure out what values they represent.
 
 * Your code must be written in a file named `sign.js`.
 * Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 3
+
+Prompt the user to enter an integer. Is it even or odd?
+
+There are two possible outputs.
+* `Even.`
+* `Odd.`
+
+Remember, `0` is an even number. Your code must work for all integers in the range [`Number.MIN_SAFE_INTEGER`, `Number.MAX_SAFE_INTEGER`]. These are constants built into the `Number` object. You'll have to do a little research to figure out what values they represent.
+
+* Your code must be written in a file named `parity.js`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 4
+
+Prompt the user to enter three integers. How are the integers ordered?
+
+There are five possible outputs.
+* `Strictly increasing.`, where each integer is greater than the previous.
+* `Increasing.`, where each integer is greater than or equal to the previous.
+* `Same.`, where all integers are equal to one another.
+* `Decreasing.`, where each integer is less than or equal to the previous.
+* `Strictly decreasing.`, where each integer is less than the previous.
+* `Unordered.`, where none of the above applies.
+
+Your code must work for all integers in the range [`Number.MIN_SAFE_INTEGER`, `Number.MAX_SAFE_INTEGER`]. These are constants built into the `Number` object. You'll have to do a little research to figure out what values they represent.
+
+* Your code must be written in a file named `sequence.js`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 5
+
+Prompt the user to enter a letter grade. What's the corresponding GPA?
+
+There are two possible outputs.
+* `Your GPA is #.##.`
+* `That's not a valid letter grade.`
+
+Letter grades are given the following numeric equivalents.
+* `A` is worth 4.00 points.
+* `B` is worth 3.00 points.
+* `C` is worth 2.00 points.
+* `D` is worth 1.00 point.
+* `F` is worth 0.00 points.
+
+Letter grades may or may not be suffixed with a `+` or `-`. With a few exceptions, a `+` adds `0.33` points to the baseline value of that letter, while a `-` subtracts `0.33` points. There is no `F+` or `F-`, and the maximum grade point is `4.00` (meaning an `A` and an `A+` are scored the same). Your code must be case-insensitive.
+
+* Your code must be written in a file named `sequence.js`.
+* Use `const` variables to represent the values for `A`, `B`, `C`, `D`, and `F`.
+* Use `const` variables to represent the `0.33` addition or subtraction for the optional `+` or `-`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 6
+
+Prompt the user to enter a grade. What's the corresponding letter grade?
+
+There are four possible outputs.
+* `You received a X.`, where `X` can be `B`, `C`, or `D` (with or without `+` or `-`).
+* `You received an X.`, where `X` can be `A` or `F` (with or without `+` or `-`).
+* `Grades above 100 are invalid.`
+* `Grades below 0 are invalid.`
+
+The grading policy is defined as follows.
+* `90` to `100` constitutes an `A`.
+* `80` to `89` constitutes a `B`.
+* `70` to `79` constitutes a `C`.
+* `60` to `69` constitutes a `D`.
+* `0` to `59` constitutes an `F`.
+* All other grades are invalid.
+
+Your code must support fractional grades (i.e., `97.3`), and your output must be grammatically correct.
 
 ## Deadline
 
