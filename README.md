@@ -136,7 +136,7 @@ Letter grades are given the following numeric equivalents.
 * `D` is worth `1.00` point.
 * `F` is worth `0.00` points.
 
-Each letter grade (with the exception of `F`) can be optionally suffixed with a `+` or `-`. A `+` increases the grade point for that letter by `0.33`, while a `-` decreases it by `0.33` points.
+Each letter grade can be optionally suffixed with a `+` or `-`; a `+` increases the grade point for that letter by `0.33`, while a `-` decreases it by `0.33` points. The are a few exceptions to this. `A` and `A+` are both worth `4.00` points, and there is no `F+` or `F-`.
 
 // examples
 
