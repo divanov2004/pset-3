@@ -105,7 +105,7 @@ Your code needs to support all numbers in the range [`Number.MIN_SAFE_INTEGER`, 
 
 `Number.MIN_SAFE_INTEGER` and `Number.MAX_SAFE_INTEGER` are constants built into the `Number` object. You'll have to do a little research to figure out what values they represent.
 
-There are six possible outputs.
+There are seven possible outputs.
 * `Strictly increasing.`
 * `Increasing.`
 * `Equal.`
