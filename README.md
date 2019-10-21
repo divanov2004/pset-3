@@ -239,8 +239,6 @@ There are two possible outputs.
 // examples
 
 * Your code must be written in a file named `cards.js`.
-* Use `const` variables to represent each of the suits.
-* Use `const` variables to represent any rank above 9 (i.e., `T` through `A`).
 * Your prompt and message must be grammatically correct and match mine **exactly**.
 
 ### Exercise 9
