@@ -53,7 +53,7 @@ There are two possible outputs.
 * `Q quarters, D dimes, N nickels, and P pennies.`
 * `Invalid.`
 
-// examples
+![Exercise 1 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/change.png)
 
 * Your code must be written in a file named `change.js`.
 * Use `const` variables to represent the value of a quarter, dime, and nickel.
@@ -74,7 +74,7 @@ There are four possible outputs.
 * `Zero.`
 * `Invalid.`
 
-// examples
+![Exercise 2 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/sign.png)
 
 * Your code must be written in a file named `sign.js`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -92,7 +92,7 @@ There are three possible outputs.
 * `Odd.`
 * `Invalid.`
 
-// examples
+![Exercise 3 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/parity.png)
 
 * Your code must be written in a file named `parity.js`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -114,7 +114,7 @@ There are seven possible outputs.
 * `Unordered.`
 * `Invalid.`
 
-// examples
+![Exercise 4 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/sequence.png)
 
 * Your code must be written in a file named `sequence.js`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -138,7 +138,7 @@ Letter grades are given the following numeric equivalents.
 
 Each letter grade can be optionally suffixed with a `+` or `-`; a `+` increases the grade point for that letter by `0.33`, while a `-` decreases it by `0.33` points. The are a few exceptions to this. `A` and `A+` are both worth `4.00` points, and there is no `F+` or `F-`.
 
-// examples
+![Exercise 5 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/gpa.png)
 
 * Your code must be written in a file named `gpa.js`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -160,7 +160,7 @@ The grading policy is defined as follows.
 * `60` to `69` constitutes a `D`.
 * `0` to `59` constitutes an `F`.
 
-// examples
+![Exercise 6 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/grades.png)
 
 * Your code must be written in a file named `grades.js`.
 * Use `const` variables to represent the thresholds between `A`, `B`, `C`, `D`, and `F`.
@@ -179,7 +179,7 @@ There are three possible outputs.
 * `X is not a leap year.`
 * `Invalid.`
 
-// examples
+![Exercise 7 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/years.png)
 
 * Your code must be written in a file named `years.js`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -236,7 +236,7 @@ There are two possible outputs.
 * `Rank of Suit.`
 * `Invalid.`
 
-// examples
+![Exercise 8 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/cards.png)
 
 * Your code must be written in a file named `cards.js`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -253,7 +253,7 @@ There are four possible outputs.
 * `31 days.`
 * `Invalid.`
 
-// examples
+![Exercise 9 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/months.png)
 
 * Your code must be written in a file named `months.js`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -275,7 +275,7 @@ There are four possible outputs.
 * `Gas.`
 * `Invalid.`
 
-// examples
+![Exercise 10 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/temperature.png)
 
 * Your code must be written in a file named `temperature.js`.
 * Use `const` variables to represent the freezing and boiling points of water for each temperature scale.
