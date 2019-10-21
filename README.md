@@ -47,7 +47,7 @@ Work through these exercises on your own. Experiment, make mistakes, ask questio
 
 I've written some code in `change.js`, but it's incomplete. It's supposed to print the number of quarters, dimes, nickels, and pennies needed to make change.
 
-Your code needs to support numbers in the range [`0.01`, `0.99`]. Numbers outside of this range and non-numeric values are invalid.
+Your code needs to support numbers in the range [`0.01`, `0.99`]. Numbers outside of this range and non-numeric values are invalid. You may assume that all test cases, when valid, will have exactly two digits to the right of the decimal point.
 
 There are two possible outputs.
 * `Q quarters, D dimes, N nickels, and P pennies.`
