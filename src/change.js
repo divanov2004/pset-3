@@ -5,8 +5,13 @@ const maximum = 0.99;
 
 const amount = Number(readlineSync.question("\nEnter a dollar amount: "));
 
-if (amount < minimum || amount > maximum) {
-    // print your error message here
+if (Number.isNaN(amount)) {
+    console.log("NaN");
+// print your error message here
+} else if (amount < minimum || amount > maximum) {
+    console.log("Out of range");
+// print your error message here
 } else {
-    // write your code for making change here
+    console.log("Make change");
+// write your code for making change here
 }
