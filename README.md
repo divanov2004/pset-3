@@ -140,7 +140,7 @@ Each letter grade (with the exception of `F`) can be optionally suffixed with a 
 
 // examples
 
-* Your code must be written in a file named `letters.js`.
+* Your code must be written in a file named `gpa.js`.
 * Use `const` variables to represent the values for `A`, `B`, `C`, `D`, and `F`.
 * Use `const` variables to represent the `0.33` addition or subtraction for the optional `+` or `-`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
@@ -164,7 +164,7 @@ The grading policy is defined as follows.
 
 // examples
 
-* Your code must be written in a file named `numbers.js`.
+* Your code must be written in a file named `grades.js`.
 * Use `const` variables to represent the thresholds between `A`, `B`, `C`, `D`, and `F`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
 
