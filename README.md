@@ -278,6 +278,7 @@ There are four possible outputs.
 // examples
 
 * Your code must be written in a file named `temperature.js`.
+* Use `const` variables to represent the freezing and boiling points of water for each temperature scale.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
 
 ## Deadline
