@@ -50,7 +50,7 @@ I've written some code in `change.js`, but it's incomplete. It's supposed to pri
 Your code needs to support numbers in the range [`0.01`, `0.99`]. Numbers outside of this range and non-numeric values are invalid.
 
 There are two possible outputs.
-* `A quarters, B dimes, C nickels, and D pennies.`
+* `Q quarters, D dimes, N nickels, and P pennies.`
 * `Invalid.`
 
 // examples
