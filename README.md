@@ -45,16 +45,20 @@ Work through these exercises on your own. Experiment, make mistakes, ask questio
 
 ### Exercise 1
 
-I've written some code in `change.js`, but it's incomplete. It's supposed to print the number of quarters, dimes, nickels, and pennies needed to make change (or an error message if the user enters a value outside of the accepted range). Your algorithm should always prioritize larger denominations over smaller ones.
+I've written some code in `change.js`, but it's incomplete. It's supposed to print the number of quarters, dimes, nickels, and pennies needed to make change.
+
+// supported, unsuported, invalid, examples
 
 * Your code must be written in a file named `change.js`.
 * Use `const` variables to represent the value of a quarter, dime, and nickel.
-* Use `const` variables to represent the minimum and maximum values of the accepted range.
+* Use `const` variables to represent the minimum and maximum values of the supported range.
 * Your message must match mine exactly (including spacing and punctuation).
 
 ### Exercise 2
 
 Prompt the user to enter an integer. Is it positive, negative, or zero?
+
+// supported, unsupported, invalid, examples
 
 There are three possible outputs.
 * `Positive.`
@@ -70,6 +74,8 @@ Your code must work for all integers in the range [`Number.MIN_SAFE_INTEGER`, `N
 
 Prompt the user to enter an integer. Is it even or odd?
 
+// supported, unsupported, invalid, examples
+
 There are two possible outputs.
 * `Even.`
 * `Odd.`
@@ -82,6 +88,8 @@ Remember, `0` is an even number. Your code must work for all integers in the ran
 ### Exercise 4
 
 Prompt the user to enter three integers. How are the integers ordered?
+
+// supported, unsupported, invalid, examples
 
 There are five possible outputs.
 * `Strictly increasing.`, where each integer is greater than the previous.
@@ -100,6 +108,8 @@ Your code must work for all integers in the range [`Number.MIN_SAFE_INTEGER`, `N
 
 Prompt the user to enter a letter grade. What's the corresponding GPA?
 
+// supported, unsupported, invalid, examples
+
 There are two possible outputs.
 * `Your GPA is #.##.`
 * `That's not a valid letter grade.`
@@ -113,7 +123,7 @@ Letter grades are given the following numeric equivalents.
 
 Letter grades may or may not be suffixed with a `+` or `-`. With a few exceptions, a `+` adds `0.33` points to the baseline value of that letter, while a `-` subtracts `0.33` points. There is no `F+` or `F-`, and the maximum grade point is `4.00` (meaning an `A` and an `A+` are scored the same). Your code must be case-insensitive.
 
-* Your code must be written in a file named `sequence.js`.
+* Your code must be written in a file named `letters.js`.
 * Use `const` variables to represent the values for `A`, `B`, `C`, `D`, and `F`.
 * Use `const` variables to represent the `0.33` addition or subtraction for the optional `+` or `-`.
 * Your prompt and personalized message must match mine exactly (including spacing and punctuation).
@@ -121,6 +131,8 @@ Letter grades may or may not be suffixed with a `+` or `-`. With a few exception
 ### Exercise 6
 
 Prompt the user to enter a grade. What's the corresponding letter grade?
+
+// supported, unsupported, invalid, examples
 
 There are four possible outputs.
 * `You received a X.`, where `X` can be `B`, `C`, or `D` (with or without `+` or `-`).
@@ -137,6 +149,97 @@ The grading policy is defined as follows.
 * All other grades are invalid.
 
 Your code must support fractional grades (i.e., `97.3`), and your output must be grammatically correct.
+
+* Your code must be written in a file named `numbers.js`.
+* Use `const` variables to represent the thresholds between `A`, `B`, `C`, `D`, and `F`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 7
+
+Prompt the user to enter a year. Is it a leap year or not?
+
+// supported, unsupported, invalid, examples
+
+There are two possible outputs.
+* `X is a leap year.`, where `X` is a valid year.
+* `X is not a leap year.`, where `X` is a valid year.
+
+Your code must work for all years in the range [`0`, `Number.MAX_SAFE_INTEGER`]. This is a constant built into the `Number` object. You'll have to do a little research to figure out what value it represents.
+
+* Your code must be written in a file named `years.js`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 8
+
+Prompt the user to enter a playing card. What card was entered?
+
+// supported, unsupported, invalid, examples
+
+There are four possible suits.
+* `Clubs`
+* `Diamonds`
+* `Hearts`
+* `Spades`
+
+There are 13 possible ranks.
+* `Two`
+* `Three`
+* `Four`
+* `Five`
+* `Six`
+* `Seven`
+* `Eight`
+* `Nine`
+* `Ten`
+* `Jack`
+* `Queen`
+* `King`
+* `Ace`
+
+Possible inputs will be a combination of ranks and suits, where ranks are written as 2-9, T, J, Q, K, or A, and suits are written as C, D, H, or S.
+
+There are two possible outputs.
+* `Rank of Suit.`, where `Rank` and `Suit` are placeholders for actual card ranks and suits.
+* `That's not a valid card.`
+
+Your code must be case-insensitive.
+
+* Your code must be written in a file named `cards.js`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 9
+
+Prompt the user to enter a month. How many days are in that month?
+
+// supported, unsupported, invalid, examples
+
+There are four possible outputs.
+* `28 or 29 days.`
+* `30 days.`
+* `31 days.`
+* `That's not a valid month.`
+
+Your code must recongnize months fully spelled out or abbreviated to the first three letters, and it must be case-insensitive.
+
+* Your code must be written in a file named `months.js`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
+
+### Exercise 10
+
+Prompt the user to enter a temperature and scale. At that temperature, is water a solid, liquid, or gas?
+
+// supported, unsupported, invalid, examples
+
+There are four possible outputs.
+* `Solid.`
+* `Liquid.`
+* `Gas.`
+* `That's not a valid temperature and/or scale.`
+
+Your code must support Fahrenheit, Celsius, and Kelvin temperatures, which are designated by scales of `F`, `C`, and `K`, respectively. Your code must be case-insensitive, and should gracefully handle unsupported values.
+
+* Your code must be written in a file named `temperature.js`.
+* Your prompt and personalized message must match mine exactly (including spacing and punctuation).
 
 ## Deadline
 
