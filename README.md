@@ -141,8 +141,6 @@ Each letter grade can be optionally suffixed with a `+` or `-`; a `+` increases 
 // examples
 
 * Your code must be written in a file named `gpa.js`.
-* Use `const` variables to represent the values for `A`, `B`, `C`, `D`, and `F`.
-* Use `const` variables to represent the `0.33` addition or subtraction for the optional `+` or `-`.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
 
 ### Exercise 6
