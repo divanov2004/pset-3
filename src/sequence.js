@@ -1,8 +1,11 @@
 const readlineSync = require("readline-sync");
 
 console.log("\nEnter three numbers.");
+
 const number1 = Number(readlineSync.question("\n"));
+
 const number2 = Number(readlineSync.question(""));
+
 const number3 = Number(readlineSync.question(""));
 
 if (Number.isNaN(number1) || Number.isNaN(number2) || Number.isNaN(number3)) {

@@ -1,6 +1,7 @@
 const readlineSync = require("readline-sync");
 
 const temperature = Number(readlineSync.question("\nEnter a temperature: "));
+
 const temperature_scale = readlineSync.question("Enter a scale: ");
 
 const temperature_type = temperature_scale.toUpperCase();

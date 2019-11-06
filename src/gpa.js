@@ -1,8 +1,8 @@
 const readlineSync = require("readline-sync");
 
-let gradeUnformatted = String(readlineSync.question("\nEnter a letter grade: "));
+let gradeBefore = String(readlineSync.question("\nEnter a letter grade: "));
 
-let grade = String(gradeUnformatted.toUpperCase());
+let grade = String(gradeBefore.toUpperCase());
 
 if (!Number.isNaN(grade)) {
   if (grade == "F") {
